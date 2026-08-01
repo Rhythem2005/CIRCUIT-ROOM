@@ -1,4 +1,4 @@
-// NeuroForge — Semantic Color System
+// Circuit Room — Semantic Color System
 // Every color carries meaning. Nothing is decorative.
 
 // Activation intensity: cold (inactive) → hot (highly activated)

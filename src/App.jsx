@@ -1,4 +1,4 @@
-// NeuroForge — Main App Shell (Redesigned)
+// Circuit Room — Main App Shell (Redesigned)
 
 import { AnimatePresence, motion } from 'framer-motion';
 import Sidebar from './components/ui/Sidebar';

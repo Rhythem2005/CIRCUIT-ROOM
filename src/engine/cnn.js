@@ -1,4 +1,4 @@
-// NeuroForge — CNN Engine for Digit Recognition
+// Circuit Room — CNN Engine for Digit Recognition
 // High-efficiency Convolutional Neural Network Engine
 
 import { MNIST_WEIGHTS } from './mnist_weights.js';

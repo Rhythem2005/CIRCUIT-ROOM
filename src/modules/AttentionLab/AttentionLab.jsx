@@ -1,4 +1,4 @@
-// NeuroForge — Attention Lab (Redesigned)
+// Circuit Room — Attention Lab (Redesigned)
 
 import { useRef, useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';

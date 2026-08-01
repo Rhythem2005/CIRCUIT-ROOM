@@ -1,4 +1,4 @@
-// NeuroForge — Network Architect (Redesigned with 3D Visualization)
+// Circuit Room — Network Architect (Redesigned with 3D Visualization)
 // NOTE: this pass adds a new dependency — run:
 //   npm install @react-three/postprocessing
 // Everything else (store hooks, layout, panel logic) is untouched from the previous version.

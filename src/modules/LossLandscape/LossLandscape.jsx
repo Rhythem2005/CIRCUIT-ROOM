@@ -1,4 +1,4 @@
-// NeuroForge — Loss Landscape (Redesigned with new design system)
+// Circuit Room — Loss Landscape (Redesigned with new design system)
 
 import { useRef, useMemo, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';

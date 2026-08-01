@@ -1,4 +1,4 @@
-// NeuroForge — Training Arena (Redesigned)
+// Circuit Room — Training Arena (Redesigned)
 
 import { useEffect, useRef, useCallback, useState } from 'react';
 import { motion } from 'framer-motion';

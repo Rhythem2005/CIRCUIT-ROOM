@@ -1,4 +1,4 @@
-// NeuroForge — Redesigned Home Page
+// Circuit Room — Redesigned Home Page
 
 import { motion } from 'framer-motion';
 import { Brain, Play, Layers, Mountain, Sparkles, Beaker, ArrowRight, Zap, PenTool, BookOpen, Cpu } from 'lucide-react';
@@ -164,7 +164,7 @@ export default function HomePage() {
           </div>
 
           <h1 className="text-display text-5xl mb-4">
-            <span className="grad-text">NeuroForge</span>
+            <span className="grad-text">Circuit Room</span>
           </h1>
 
           <p className="text-sm text-text-secondary leading-relaxed max-w-md mx-auto mb-8">

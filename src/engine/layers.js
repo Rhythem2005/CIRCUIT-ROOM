@@ -1,4 +1,4 @@
-// NeuroForge Neural Engine — Layer System
+// Circuit Room Neural Engine — Layer System
 // Real neural network layers with forward/backward pass
 
 import { Tensor, activations } from './tensor.js';

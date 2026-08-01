@@ -1,4 +1,4 @@
-// NeuroForge — Regularization Lab
+// Circuit Room — Regularization Lab
 // Visualize overfitting, dropout, L1/L2 regularization effects
 
 import { useRef, useEffect, useState, useMemo, useCallback } from 'react';

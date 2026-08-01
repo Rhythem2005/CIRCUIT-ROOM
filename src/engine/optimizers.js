@@ -1,4 +1,4 @@
-// NeuroForge Neural Engine — Optimizers
+// Circuit Room Neural Engine — Optimizers
 // Real optimizers with state tracking for visualization
 
 export class SGD {

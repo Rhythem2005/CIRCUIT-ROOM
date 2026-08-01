@@ -1,4 +1,4 @@
-// NeuroForge — Representation Explorer (Redesigned)
+// Circuit Room — Representation Explorer (Redesigned)
 
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';

@@ -1,4 +1,4 @@
-// NeuroForge — Concept Playground Module
+// Circuit Room — Concept Playground Module
 // Interactive micro-labs for individual deep learning concepts
 
 import { useState } from 'react';

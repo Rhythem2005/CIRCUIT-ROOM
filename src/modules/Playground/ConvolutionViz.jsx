@@ -1,4 +1,4 @@
-// NeuroForge — Convolution Visualizer
+// Circuit Room — Convolution Visualizer
 // Step-by-step kernel sliding animation over images
 
 import { useRef, useEffect, useState, useCallback } from 'react';

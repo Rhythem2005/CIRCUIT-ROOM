@@ -1,4 +1,4 @@
-// NeuroForge — Global State Store (Zustand)
+// Circuit Room — Global State Store (Zustand)
 
 import { create } from 'zustand';
 import { Network } from '../engine/network.js';

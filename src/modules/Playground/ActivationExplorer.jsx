@@ -1,4 +1,4 @@
-// NeuroForge — Activation Function Explorer
+// Circuit Room — Activation Function Explorer
 // Interactive visualization of activation functions and their properties
 
 import { useRef, useEffect, useState, useMemo } from 'react';

@@ -1,4 +1,4 @@
-// NeuroForge — Gradient Flow Analyzer
+// Circuit Room — Gradient Flow Analyzer
 // Visualize vanishing/exploding gradients and solutions
 
 import { useRef, useEffect, useState, useMemo } from 'react';

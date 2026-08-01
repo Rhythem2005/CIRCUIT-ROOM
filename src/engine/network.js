@@ -1,4 +1,4 @@
-// NeuroForge Neural Engine — Network Container
+// Circuit Room Neural Engine — Network Container
 // Sequential model with full forward/backward pass and history
 
 import { Tensor, activations, losses } from './tensor.js';

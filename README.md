@@ -1,6 +1,6 @@
-# NeuroForge
+# Circuit Room
 
-NeuroForge is a professional-grade neural network simulator and visualization platform that runs entirely in your browser. Unlike typical educational demos that animate pre-recorded sequences, NeuroForge performs **real computations**—actual matrix multiplications, actual gradient calculations, and actual backpropagation—and renders every intermediate result as an interactive, cinematic visualization.
+Circuit Room is a professional-grade neural network simulator and visualization platform that runs entirely in your browser. Unlike typical educational demos that animate pre-recorded sequences, Circuit Room performs **real computations**—actual matrix multiplications, actual gradient calculations, and actual backpropagation—and renders every intermediate result as an interactive, cinematic visualization.
 
 The goal is to make the invisible computations of modern deep learning visible, tangible, and deeply intuitive. Every neuron activation, every weight update, every gradient flow is computed in real-time and visualized with a semantic color system where every color carries mathematical meaning.
 
@@ -36,7 +36,7 @@ To run the project locally on your machine:
    ```
 
 3. **Explore**:
-   Open `http://localhost:5173` (or the port specified in your terminal) in your browser to start exploring NeuroForge.
+   Open `http://localhost:5173` (or the port specified in your terminal) in your browser to start exploring Circuit Room.
 
 ## Security & Privacy
-NeuroForge runs entirely in the client's browser. No data, canvas drawings, or model weights are sent to any external server. The repository `.gitignore` has been rigorously configured to prevent the accidental exposure of environment variables (`.env`) and intermediate compilation files.
+Circuit Room runs entirely in the client's browser. No data, canvas drawings, or model weights are sent to any external server. The repository `.gitignore` has been rigorously configured to prevent the accidental exposure of environment variables (`.env`) and intermediate compilation files.

@@ -1,4 +1,4 @@
-// NeuroForge Neural Engine — Datasets
+// Circuit Room Neural Engine — Datasets
 // Procedurally generated 2D classification datasets
 
 import { Tensor } from './tensor.js';

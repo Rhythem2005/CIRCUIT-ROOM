@@ -2,7 +2,7 @@ import { useRef, useState, useEffect, useCallback, useMemo } from "react";
 import { MNIST_WEIGHTS } from '../../engine/mnist_weights.js';
 
 /* =========================================================================
-   NeuroForge — CNN Digit Recognition (standalone educational build)
+   Circuit Room — CNN Digit Recognition (standalone educational build)
    Draw a digit, watch a real (tiny, hand-initialized) CNN run forward,
    and read exactly what each layer is doing and why, at each step.
    No external deps beyond React — canvas2d only, so this drops straight

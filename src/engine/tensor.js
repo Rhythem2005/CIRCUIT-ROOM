@@ -1,4 +1,4 @@
-// NeuroForge Neural Engine — Tensor System
+// Circuit Room Neural Engine — Tensor System
 // Real tensor operations with basic autograd support
 
 export class Tensor {

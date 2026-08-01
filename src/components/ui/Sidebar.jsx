@@ -1,4 +1,4 @@
-// NeuroForge — Redesigned Sidebar
+// Circuit Room — Redesigned Sidebar
 
 import { motion } from 'framer-motion';
 import {
@@ -39,7 +39,7 @@ export default function Sidebar() {
         </div>
         {!collapsed && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-            <div className="text-[13px] font-bold grad-text leading-none">NeuroForge</div>
+            <div className="text-[13px] font-bold grad-text leading-none">Circuit Room</div>
             <div className="text-[9px] text-text-ghost mt-0.5 leading-none">Neural Simulator</div>
           </motion.div>
         )}
