@@ -8,7 +8,7 @@
 [![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 [![Three.js](https://img.shields.io/badge/Three.js-3D%20Engine-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org)
 [![Zustand](https://img.shields.io/badge/Zustand-State-433E38?style=for-the-badge)](https://github.com/pmndrs/zustand)
-[![Client Side Only](https://img.shields.io/badge/Inference-100%25%20Client--Side-success?style=for-the-badge)](#-privacy--security)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-circuit--room.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://circuit-room.vercel.app/)
 
 <sub>⭐ If Circuit Room helps you understand neural nets better, consider starring the repo — it genuinely helps.</sub>
 
@@ -24,7 +24,7 @@ The goal is simple: make the mathematics behind deep learning **observable**, no
 
 ## 📚 Table of Contents
 
-- [Live Demo](#-live-demo)
+- [Live Deployment](#-live-deployment)
 - [Why Circuit Room](#-why-circuit-room)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
@@ -36,15 +36,13 @@ The goal is simple: make the mathematics behind deep learning **observable**, no
 
 <br>
 
-## 🎬 Live Demo
+## 🌐 Live Deployment
 
 <div align="center">
 
-**[→ Try Circuit Room Live](#)** &nbsp;·&nbsp; *(add your deployed URL here)*
+### 🚀 **[Try Circuit Room Live → https://circuit-room.vercel.app/](https://circuit-room.vercel.app/)**
 
-<!-- Add a real screenshot or GIF for maximum impact, e.g.: -->
-<!-- ![Circuit Room Demo](docs/demo.gif) -->
-<sub>💡 Tip: a 10–15s screen-recorded GIF of the Training Arena or CNN visualizer here will do more for this README than any amount of text.</sub>
+[![Launch App](https://img.shields.io/badge/Launch%20App-circuit--room.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://circuit-room.vercel.app/)
 
 </div>
 
