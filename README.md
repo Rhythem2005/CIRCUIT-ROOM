@@ -1,215 +1,239 @@
-# Circuit Room
+<div align="center">
 
-> **A browser-native neural network simulator that transforms deep learning computations into interactive, real-time 3D visualizations.**
+# 🧠 Circuit Room
 
-Circuit Room is a professional-grade neural network visualization platform that runs entirely in the browser. Unlike traditional educational demonstrations that replay precomputed animations, Circuit Room performs **real neural network computation** in real time—including forward propagation, matrix multiplication, gradient computation, and backpropagation—and visualizes every stage of the learning process.
+### A browser-native neural network simulator that turns deep learning into interactive, real-time 3D visualizations.
 
-The project is designed to make the mathematics behind modern deep learning intuitive and observable. Every neuron activation, weight update, and gradient flow is computed live and rendered as fully interactive 3D geometry with physically inspired lighting and a semantic color system, allowing users to understand *why* a network behaves the way it does rather than simply seeing the final prediction.
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Three.js](https://img.shields.io/badge/Three.js-3D%20Engine-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org)
+[![Zustand](https://img.shields.io/badge/Zustand-State-433E38?style=for-the-badge)](https://github.com/pmndrs/zustand)
+[![Client Side Only](https://img.shields.io/badge/Inference-100%25%20Client--Side-success?style=for-the-badge)](#-privacy--security)
+
+<sub>⭐ If Circuit Room helps you understand neural nets better, consider starring the repo — it genuinely helps.</sub>
+
+</div>
 
 ---
 
-## Highlights
+Circuit Room is a professional-grade neural network visualization platform that runs **entirely in the browser**. Unlike educational demos that replay precomputed animations, Circuit Room performs **real neural network computation** in real time — forward propagation, matrix multiplication, gradient computation, backpropagation — and renders every stage of the learning process as it happens.
 
-* **Real computation** — No prerecorded animations or fake simulations. Every visualization is generated from live neural network computation.
-* **Interactive 3D rendering** — Explore neural networks as dynamic 3D structures with cinematic lighting, animation, and camera controls.
-* **Built entirely for the browser** — No backend or server-side inference required.
-* **Educational and technically accurate** — Designed to bridge the gap between mathematical theory and intuitive understanding.
+The goal is simple: make the mathematics behind deep learning **observable**, not just describable. Every activation, weight update, and gradient flow is computed live and rendered as interactive 3D geometry with physically inspired lighting, so you can see *why* a network behaves the way it does — not just its final prediction.
 
----
+<br>
 
-# Features
+## 📚 Table of Contents
 
-## Network Architect
+- [Live Demo](#-live-demo)
+- [Why Circuit Room](#-why-circuit-room)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+- [Privacy & Security](#-privacy--security)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Author](#-author)
+
+<br>
+
+## 🎬 Live Demo
+
+<div align="center">
+
+**[→ Try Circuit Room Live](#)** &nbsp;·&nbsp; *(add your deployed URL here)*
+
+<!-- Add a real screenshot or GIF for maximum impact, e.g.: -->
+<!-- ![Circuit Room Demo](docs/demo.gif) -->
+<sub>💡 Tip: a 10–15s screen-recorded GIF of the Training Arena or CNN visualizer here will do more for this README than any amount of text.</sub>
+
+</div>
+
+<br>
+
+## 💡 Why Circuit Room
+
+> **Understanding deep learning requires seeing the computation — not just the outcome.**
+
+Most neural network visualizers animate abstract concepts or replay prerecorded sequences. Circuit Room computes every activation, every gradient, every weight update, and every prediction in real time — turning neural networks from opaque mathematical abstractions into systems you can explore, poke at, and actually understand.
+
+<br>
+
+## ✨ Features
+
+| Module | What it does | Live computation |
+|---|---|:---:|
+| 🏗️ Network Architect | Design custom feedforward nets in 3D | ✅ |
+| 🎯 Training Arena | Watch real gradient descent unfold | ✅ |
+| ✍️ CNN Digit Recognition | Draw a digit, watch a CNN classify it layer-by-layer | ✅ |
+| 🏔️ Loss Landscape Explorer | Navigate a 3D loss surface as optimization happens | ✅ |
+| 🎛️ Interactive Playground | Explore activations & regularization hands-on | ✅ |
+
+<details>
+<summary><b>🏗️ Network Architect</b> — design & explore custom feedforward networks</summary>
+<br>
 
 Design and explore fully customizable feedforward neural networks in an immersive 3D environment.
 
-Features include:
+**Includes:**
+- Interactive visual architecture editor
+- Adjustable hidden layers and neuron counts
+- Multiple activation functions: ReLU, Sigmoid, Tanh, GELU, Swish, Leaky ReLU
+- Live forward propagation visualization
+- Weight-aware animated connections
+- Activation-driven neuron pulses
+- Orbit, pan, and inspect the network from any angle
 
-* Interactive visual architecture editor
-* Adjustable hidden layers and neuron counts
-* Multiple activation functions:
+Each neuron renders as a glowing energy core inside a rotating shell; connections shift color and intensity based on weight sign and magnitude.
 
-  * ReLU
-  * Sigmoid
-  * Tanh
-  * GELU
-  * Swish
-  * Leaky ReLU
-* Live forward propagation visualization
-* Weight-aware animated connections
-* Activation-driven neuron pulses
-* Orbit, pan, and inspect the network from any angle
+</details>
 
-Each neuron is represented as a glowing energy core enclosed by a rotating shell, while connections dynamically change color and intensity according to their weight sign and magnitude.
+<details>
+<summary><b>🎯 Training Arena</b> — real gradient descent, visualized live</summary>
+<br>
 
----
+Train custom neural networks using real gradient descent while watching the learning process unfold in real time.
 
-## Training Arena
+**Includes:**
+- Forward propagation
+- Backpropagation
+- Live gradient updates
+- Weight and bias evolution
+- Continuously updating decision boundaries
+- Interactive 2D datasets
 
-Train custom neural networks using real gradient descent while observing the learning process in real time.
+Instead of a static end result, Circuit Room exposes the entire optimization process as it happens.
 
-Visualizations include:
+</details>
 
-* Forward propagation
-* Backpropagation
-* Live gradient updates
-* Weight and bias evolution
-* Continuously updating decision boundaries
-* Interactive 2D datasets
+<details>
+<summary><b>✍️ CNN Digit Recognition</b> — draw a digit, watch it get classified</summary>
+<br>
 
-Rather than visualizing a static result, Circuit Room exposes the complete optimization process as it happens.
+Draw a handwritten digit and watch a real Convolutional Neural Network process it layer by layer.
 
----
+**Includes:**
+- Live convolution operations
+- Individual feature maps for every filter
+- Progressive activation visualization
+- Flattened feature vectors
+- Final classification probabilities
 
-## CNN Digit Recognition
+Uses PyTorch-equivalent MNIST preprocessing while running inference entirely in optimized JavaScript.
 
-Draw a handwritten digit and observe a real Convolutional Neural Network process it layer by layer.
+</details>
 
-The visualization includes:
-
-* Live convolution operations
-* Individual feature maps for every filter
-* Progressive activation visualization
-* Flattened feature vectors
-* Final classification probabilities
-
-The implementation uses PyTorch-equivalent MNIST preprocessing while running inference entirely in optimized JavaScript.
-
----
-
-## Loss Landscape Explorer
+<details>
+<summary><b>🏔️ Loss Landscape Explorer</b> — optimization as movement across a 3D surface</summary>
+<br>
 
 Visualize optimization as movement across a complex three-dimensional loss surface.
 
-Features include:
+**Includes:**
+- Physics-inspired optimization
+- Momentum-based movement
+- Interactive camera controls
+- Non-convex terrain visualization
+- Optimization path tracking
 
-* Physics-inspired optimization
-* Momentum-based movement
-* Interactive camera controls
-* Non-convex terrain visualization
-* Optimization path tracking
+Gives an intuitive feel for gradient descent dynamics beyond the usual 2D plots.
 
-This module provides an intuitive understanding of gradient descent dynamics beyond traditional 2D plots.
+</details>
 
----
-
-## Interactive Playground
+<details>
+<summary><b>🎛️ Interactive Playground</b> — hands-on deep learning fundamentals</summary>
+<br>
 
 Experiment with fundamental deep learning concepts directly in the browser.
 
-Topics include:
+**Includes:**
+- Activation functions
+- Regularization techniques
+- Mathematical intuition behind neural networks
+- Interactive parameter exploration
 
-* Activation functions
-* Regularization techniques
-* Mathematical intuition behind neural networks
-* Interactive parameter exploration
+</details>
 
----
+<br>
 
-# Technology Stack
+## 🛠️ Tech Stack
 
-### Frontend
+| Layer | Technology |
+|---|---|
+| **Frontend** | React, Vite |
+| **State Management** | Zustand |
+| **3D Graphics** | Three.js, React Three Fiber (R3F), `@react-three/postprocessing` |
+| **Neural Network Engine** | Custom vanilla JS engine — zero runtime dependencies, flat `Float32Array` memory layout, real forward/backward pass |
+| **Animation** | Framer Motion |
+| **Icons** | Lucide React |
+| **Design System** | Custom dark glassmorphism, semantic color system, handcrafted CSS |
 
-* React
-* Vite
+<br>
 
-### State Management
+## 🚀 Getting Started
 
-* Zustand
+### Prerequisites
 
-### 3D Graphics
+- Node.js
+- npm
 
-* Three.js
-* React Three Fiber (R3F)
-* @react-three/postprocessing
-
-These technologies power every visualization in Circuit Room, including neurons, weighted connections, particle systems, feature maps, and post-processing effects such as bloom and vignette.
-
-### Neural Network Engine
-
-A custom neural network engine built from scratch in vanilla JavaScript featuring:
-
-* Zero runtime dependencies
-* Flat `Float32Array` memory layouts
-* Optimized matrix operations
-* Real forward propagation
-* Real backpropagation
-* Efficient gradient computation
-
-### Animation
-
-* Framer Motion
-
-Used throughout the interface for smooth transitions, panel animations, and navigation.
-
-### Icons
-
-* Lucide React
-
-### Design System
-
-A fully custom design language featuring:
-
-* Dark glassmorphism aesthetic
-* Semantic color system
-* Responsive layouts
-* Handcrafted CSS
-* High-performance rendering
-
----
-
-# Getting Started
-
-## Prerequisites
-
-* Node.js
-* npm
-
-## Installation
+### Installation
 
 ```bash
 npm install
 ```
 
-## Development
+### Development
 
 ```bash
 npm run dev
 ```
 
-Open:
+Then open:
 
-```text
+```
 http://localhost:5173
 ```
 
-(or the port shown in your terminal)
+*(or whichever port your terminal shows)*
 
----
+<br>
 
-# Project Philosophy
+## 🔒 Privacy & Security
 
-Circuit Room was built around a simple principle:
+Circuit Room executes entirely within your browser — nothing leaves your machine.
 
-> **Understanding deep learning requires seeing the computation—not just the outcome.**
+- 🚫 No model weights are transmitted to external servers
+- 🚫 No canvas drawings or user inputs leave the device
+- 🚫 No backend inference is performed
+- ✅ A carefully configured `.gitignore` prevents accidental exposure of environment variables, build artifacts, and temporary files
 
-Most neural network visualizers animate abstract concepts or replay prerecorded sequences. Circuit Room instead computes every activation, every gradient, every weight update, and every prediction in real time, enabling users to inspect the actual mechanics of learning as they occur.
+<br>
 
-The objective is to transform neural networks from opaque mathematical abstractions into interactive systems that can be explored, understood, and experimented with.
+## 🤝 Contributing
 
----
+Contributions, issues, and feature requests are welcome!
 
-# Privacy & Security
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Circuit Room executes entirely within the user's browser.
+<br>
 
-* No model weights are transmitted to external servers.
-* No canvas drawings or user inputs leave the device.
-* No backend inference is performed.
-* The repository includes a carefully configured `.gitignore` to prevent accidental exposure of environment variables, build artifacts, and temporary files.
+## 📄 License
 
----
+This project is open source. See the [`LICENSE`](./LICENSE) file for details.
 
-# License
+<br>
 
-This project is open source. Refer to the repository's `LICENSE` file for licensing information.
+## 👤 Author
+
+**Rhythem**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Rhythem2005-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Rhythem2005)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View-000000?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-pqfa.vercel.app)
+
+<div align="center">
+<sub>Built with a lot of Float32Arrays and probably too much coffee ☕</sub>
+</div>
